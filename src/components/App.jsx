@@ -10,7 +10,7 @@ import Layout from "./Layout/Layout.jsx";
 const App = () => {
   return (
     <Routes>
-      <Route path="/" element={<Layout />}>
+      <Route path="/lingo-app" element={<Layout />}>
         <Route index element={<Home />} />
         <Route path="teachers" element={<Teachers />} />
         <Route  

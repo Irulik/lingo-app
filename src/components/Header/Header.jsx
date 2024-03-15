@@ -3,6 +3,7 @@ import './Header.css'
 import HeaderNav from '../headerNav/HeaderNav';
 import HeaderLogo from '../headerLogo/HeaderLogo';
 import Auth from '../Auth/Auth';
+// import LoginPopup from '../modal/loginPopup/LoginPopup'; 
 
 
 
@@ -17,8 +18,10 @@ const Header = () => {
       <div className="container">
         <div className="header-row">
           <HeaderLogo />
-          <HeaderNav />
-          <Auth onRegistrationClick={handleRegistrationClick} />
+           <HeaderNav />
+           
+           <Auth onRegistrationClick={handleRegistrationClick} />
+         
         </div>
       </div>
     </header>

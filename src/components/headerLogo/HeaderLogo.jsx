@@ -5,7 +5,7 @@ import React from "react";
 const HeaderLogo = () => {
   return (
     <div className="header-logo">
-      <Link to="/">
+      <Link to="/lingo-app">
         <svg
           xmlns="http://www.w3.org/2000/svg"
           width="28"
@@ -29,7 +29,7 @@ const HeaderLogo = () => {
           </defs>
         </svg>
       </Link>
-      <Link to="/" className="text-center">
+      <Link to="/lingo-app" className="text-center">
         LearnLingo
       </Link>
     </div>

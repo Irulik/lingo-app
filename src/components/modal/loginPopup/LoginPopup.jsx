@@ -3,7 +3,8 @@ import "./LoginPopup.css";
 import { logInUser } from "./firebase/auth.js";
 import { favCreator } from "./favorites.js";
 import Auth from "../../Auth/Auth.jsx";
-import { Formik, Form, Field } from "formik";
+import { Formik, Form, Field, ErrorMessage } from "formik";
+import * as yup from 'yup';
 
 const initialValues = {
   login: " ",
@@ -62,7 +63,10 @@ const LoginPopup = () => {
   }, []);
 
   return (
-    <Formik initialValues={initialValues} onSubmit={handleSubmit}>
+    <Formik
+      initialValues={initialValues}
+      validationSchema={schema}
+      onSubmit={handleSubmit}>
       <form autoComplete="off">
       <div
         className={`popup-container js-popup-container js-login-popup-container ${showPopup
@@ -104,7 +108,8 @@ const LoginPopup = () => {
                 placeholder="Email"
                 name="email"
                 required
-              />
+                />
+                <ErrorMessage name="email" component="div"/>
             </div>
 
             <div className="popup-reg-group">
@@ -113,8 +118,9 @@ const LoginPopup = () => {
                 id="loginPassword"
                 className="form-input"
                 placeholder="Password"
-                name="password"
-              />
+                  name="password"                 
+                />
+                <ErrorMessage name="password" component="div" />
             </div>
 
             <button type="submit" className="popup-reg-btn">

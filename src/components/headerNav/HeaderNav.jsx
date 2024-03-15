@@ -7,7 +7,7 @@ const HeaderNav = () => {
       <nav>
         <ul className="header-nav_list navigation_lit">
           <li className="header-nav_item navigation_item">
-            <Link className="header-nav_link navigation_link" to="/">
+            <Link className="header-nav_link navigation_link" to="/lingo-app">
               Home
             </Link>
           </li>

@@ -41,6 +41,9 @@ const renderFilterList = (label, id, options) => (
             </option>
           ))}
         </select>
+        {/* <svg>
+          <use href={`${sprite}#chevron-down`}></use>
+        </svg> */}
         <img src={chevronDownIcon} alt="Chevron down" className="chevron-icon" />
       </div>
     </div>

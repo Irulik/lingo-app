@@ -21,7 +21,7 @@ const AdvantageSection = () => {
               connecting with highly qualified and experienced tutors.
             </p>
             <div className="advan-button">
-              <Link to="/teachers" className="advan-center">
+              <Link to="/lingo-app" className="advan-center">
                 Get started
               </Link>
             </div>

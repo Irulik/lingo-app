@@ -1,27 +1,22 @@
-import React from 'react'
-import './Header.css'
-import HeaderNav from '../headerNav/HeaderNav';
-import HeaderLogo from '../headerLogo/HeaderLogo';
-import Auth from '../Auth/Auth';
-// import LoginPopup from '../modal/loginPopup/LoginPopup'; 
-
-
+import React from "react";
+import "./Header.css";
+import HeaderNav from "../headerNav/HeaderNav";
+import HeaderLogo from "../headerLogo/HeaderLogo";
+import Auth from "../Auth/Auth";
+// import LoginPopup from '../modal/loginPopup/LoginPopup';
 
 const Header = () => {
-
   const handleRegistrationClick = () => {
-      console.log('Registration button clicked');
+    console.log("Registration button clicked");
   };
-  
-   return (
+
+  return (
     <header className="header">
       <div className="container">
         <div className="header-row">
           <HeaderLogo />
-           <HeaderNav />
-           
-           <Auth onRegistrationClick={handleRegistrationClick} />
-         
+          <HeaderNav />
+          <Auth onRegistrationClick={handleRegistrationClick} />
         </div>
       </div>
     </header>

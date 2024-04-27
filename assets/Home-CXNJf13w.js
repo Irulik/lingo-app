@@ -1,4 +1,4 @@
-import{u as e,c as n,j as t,L as o}from"./index-BcN3Ocph.js";const p=e.div`
+import{u as e,c as n,j as t,L as o}from"./index-CSvX34zq.js";const p=e.div`
   width: 100%;
   display: flex;
   gap: 24px;
@@ -78,9 +78,9 @@ import{u as e,c as n,j as t,L as o}from"./index-BcN3Ocph.js";const p=e.div`
   &:hover {
     background-color: ${n.YELLOW_HOVER_BUTTON};
   }
-`,w=e.img`
+`,u=e.img`
   max-width: 100%;
-`,u="/lingo-app/assets/Tutor-BNwFXkWn.png",m=()=>t.jsxs(p,{children:[t.jsxs(c,{children:[t.jsxs(l,{children:[t.jsx(d,{children:"Unlock your potential with"}),"  ",t.jsx(x,{children:"the best"})," ",t.jsx(h,{children:"language"})," ",t.jsx(x,{children:"tutors"})]}),t.jsx(g,{children:"Embark on an Exciting Language Journey with Expert Language Tutors: Elevate your language proficiency to new heights by connecting with highly qualified and experienced tutors."}),t.jsx(o,{to:"teachers",children:t.jsx(f,{type:"button",children:"Get started"})})]}),t.jsx(w,{src:u,alt:"sticker"})]}),j=m,b=e.ul`
+`,w="/lingo-app/assets/Tutor-Bm5e7cjj.png",m=()=>t.jsxs(p,{children:[t.jsxs(c,{children:[t.jsxs(l,{children:[t.jsx(d,{children:"Unlock your potential with"}),"  ",t.jsx(x,{children:"the best"})," ",t.jsx(h,{children:"language"})," ",t.jsx(x,{children:"tutors"})]}),t.jsx(g,{children:"Embark on an Exciting Language Journey with Expert Language Tutors: Elevate your language proficiency to new heights by connecting with highly qualified and experienced tutors."}),t.jsx(o,{to:"teachers",children:t.jsx(f,{type:"button",children:"Get started"})})]}),t.jsx(u,{src:w,alt:"sticker"})]}),j=m,b=e.ul`
   display: flex;
   justify-content: space-evenly;
   align-items: center;

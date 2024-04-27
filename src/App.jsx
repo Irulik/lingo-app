@@ -20,9 +20,8 @@ export const App = () => {
     dispatch(refreshUser());
   }, [dispatch]);
 
-
   return (
-     <>
+    <>
       <Routes>
         <Route path="/" element={<Layout setNamePopUp={setNamePopUp} />}>
           <Route index element={<Home />} />

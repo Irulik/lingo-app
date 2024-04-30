@@ -1,7 +1,7 @@
 {
   "name": "lingo-app",
   "private": true,
-  "homepage": "irulik.github.io/lingo-app/",
+  "homepage": "irulik.github.io/lingo-app",
   "version": "0.0.0",
   "type": "module",
   "scripts": {

@@ -13,7 +13,7 @@
   ReactDOM.createRoot(document.getElementById("root")).render(
     <React.StrictMode>
       <PersistGate loading={null} persistor={persistor}>
-        <BrowserRouter basename="/lingo-app">
+        <BrowserRouter basename="/lingo-app/">
           <Provider store={store}>
             <MyStyleSheetManager>
               <App />
